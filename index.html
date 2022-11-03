@@ -1,0 +1,68 @@
+
+<!--サイトに落ちている情報との見比べ用のテンプレ---> 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> --> 
+
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>じゃんけんぽーーん</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <style>
+        #res {
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>じゃんけん</h1>
+    <h2>あなたの手を選択してください</h2>
+    <div>
+     <table>
+        <tr>
+            <td><img src="img/グー.png" width="200" height="200" onclick="janken(0)"></td>
+            <td><img src="img/チョキ.png" width="200" height="200" onclick="janken(1)"></td>
+            <td><img src="img/パー.png" width="200" height="200" onclick="janken(2)"></td>
+        </tr>
+     </table>
+     <hr>
+     <table>
+        <tr>
+            <th>あなたの手</th>
+            <th>コンピュータの手</th>
+        </tr>
+        <tr>
+            <td><img src="" id="userImg" width="200" height="200"></td>
+            <td><img src="" id="pcImg" width="200" height="200" ></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="res">
+                <p id="result"></p>
+            </td>
+        </tr>
+     </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
