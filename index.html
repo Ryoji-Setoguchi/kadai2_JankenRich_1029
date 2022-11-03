@@ -22,6 +22,10 @@
     <title>じゃんけんぽーーん</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-13/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-13/css/5-13.css">
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
@@ -34,6 +38,11 @@
 </head>
 
 <body>
+    <canvas id="waveCanvas"></canvas>
+<!--↓波を増やしたい場合は、idを別にしてcanvasタグを追加していく-->
+    <canvas id="waveCanvas2"></canvas>
+    <canvas id="waveCanvas3"></canvas>
+    
     <h1>じゃんけん</h1>
     <h2>あなたの手を選択してください</h2>
     <div>
@@ -63,6 +72,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/test.js"></script>
+    <script src="js/5-13.js"></script>
 </body>
 
 </html>
