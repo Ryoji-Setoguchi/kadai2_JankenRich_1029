@@ -29,8 +29,8 @@ html{
 /* 上記のアニメーションがhtmlに書いて反応なし・・・ */
 /* htmlがダメならbodyだ！と思ったが反映されていない・・・javascript記入前なら動いたのになぜ。 */
 /* body{ */
-    font-size: 120%;/* 16px × 62.5% = 10px*/
-    font-display: center;
+    /* font-size: 120%;/* 16px × 62.5% = 10px*/
+    /* font-display: center;
     top: 80;
     left: 0;
     z-index: 1;
@@ -39,19 +39,19 @@ html{
     
     background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
     opacity: 0.5;
-    animation: huerotator 3s infinite alternate;
+    animation: huerotator 3s infinite alternate; */
 /* } */
 
   /* @keyframes huerotator { */
-    0% {
+    /* 0% {
       -webkit-filter: hue-rotate(0deg);
       filter: hue-rotate(0deg);
-    }
+    } */
   
-    100% {
+    /* 100% {
       -webkit-filter: hue-rotate(360deg);
       filter: hue-rotate(360deg);
-    }
+    } */ */
   /* } */
 
 /* .img__icon{
