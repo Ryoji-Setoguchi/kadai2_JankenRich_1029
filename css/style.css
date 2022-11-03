@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+/*========= レイアウトのためのCSS ===============*/
+
+#wrapper p{
+  padding:300px 0;
+  text-align:center;
+}
+
 .wave{
   position:relative;
-  height:200px;/*何も表示されない場合は各波の親要素に高さを持たせましょう。*/
+  height: 600px;/*何も表示されない場合は各波の親要素に高さを持たせましょう。*/
   background:#fff;/*背景を塗りつぶして重ねた波を表現したい場合は、波を描画する親要素に波と同じ背景色を設定しましょう。*/
   }
   canvas{
