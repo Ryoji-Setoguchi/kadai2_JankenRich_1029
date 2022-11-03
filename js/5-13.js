@@ -19,7 +19,7 @@ function init() {
     
     // canvas2個めの色指定
     canvasList.push(document.getElementById("waveCanvas2"));
-    colorList.push(['#43c0e4']);
+    colorList.push(['#00bfff']);
     
     // canvas3個めの色指定
     canvasList.push(document.getElementById("waveCanvas3"));
