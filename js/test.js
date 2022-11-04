@@ -28,5 +28,4 @@ function janken(user) {
 
     // 勝敗結果を
     document.getElementById("result").textContent = result[user][pc];
-
 }

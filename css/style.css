@@ -2,12 +2,13 @@
 
 /*========= レイアウトのためのCSS ===============*/
 
-#wrapper p{
+#wrapper{
   padding:300px 0;
   text-align:center;
 }
 
 .wave{
+  text-align:center;
   position:relative;
   height: 600px;/*何も表示されない場合は各波の親要素に高さを持たせましょう。*/
   background:#fff;/*背景を塗りつぶして重ねた波を表現したい場合は、波を描画する親要素に波と同じ背景色を設定しましょう。*/
@@ -19,11 +20,21 @@
   width: 100%;
   }
 
-h1{
-  text-align: center;
-  font-size:100%;
-  color: black;
-}
+  h1{
+    text-align: center;
+    font-size:100%;
+    color: black;
+  }
+
+  table{
+  position: fixed;
+  top: 300px;
+  left: 500px;
+  table-layout: fixed;
+  width: 100%;
+  }
+
+
 
 /* html{
   font-size: 120%;/* 16px × 62.5% = 10px*/
