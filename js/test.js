@@ -8,6 +8,12 @@ function janken(user) {
     // ユーザの手の画像ファイル名を配列に保存
     let userJankens = ['グー.png', 'チョキ.png', 'パー.png'];
 
+    // $(function () {
+    //     $('button').on('click', () => {
+    //         $('img').hide();
+    //     });
+    // });
+
     // コンピュータの手を乱数(0～2）で作成
     let pc = Math.floor(Math.random() * 3);
 
